@@ -1,8 +1,10 @@
 import sys
 def credit(amount, years, rate):
+    ''' Считаем полученную от вклада сумму '''
     return (amount * (1 + (rate / 100) * years))
 
 def investment(amount, rate, invest):
+    """ Считаем срок, за который вкладчик получит доход 'invest' """
     return (invest * 100 * 365)/ (amount * rate)
 
 
